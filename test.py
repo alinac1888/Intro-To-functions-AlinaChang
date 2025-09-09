@@ -2,14 +2,16 @@ import turtle
 from turtle import *
 t=turtle
 t.shape('turtle')
-t.forward(200)
 def square(x):
     t.forward(x)
     t.left(90)
-    t.forward(x)
+    t.forward(200)
     t.left(90)
-    t.forward(x)
+    t.forward(200)
     t.left(90)
-    t.forward(x)
+    t.forward(200)
     t.left(90)
-    square(200)
+square()
+turtle.done()
+""" for i in range(3):
+    i=(0) """
